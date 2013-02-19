@@ -30,3 +30,6 @@ Desktop.ini
 *.swp
 *.class
 *.jar
+framework/libs/armeabi*
+framework/ndk
+framework/obj
