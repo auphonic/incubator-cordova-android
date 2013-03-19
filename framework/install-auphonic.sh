@@ -6,6 +6,7 @@ AUPHONIC_MOBILE_DIR=$(cat auphonic.path)
 
 echo "\Build java code ...\n"
 android update project -p . -t android-17
+ant clean
 ant release jar
 
 echo "\nBuild native code ...\n"
